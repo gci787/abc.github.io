@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>질병관리본부</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .clear {
+            clear: both;
+        }
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        /*초기화*/
+
+        #page {
+            width: 1300px;
+            margin: auto;
+            border: 0px solid #bbbbbb;
+        }
+
+        header {
+            height: 1300px;
+            height: 100px;
+            margin-top: 10px;
+            border: 0px solid #bbbbbb;
+        }
+
+        nav {
+            width: 1300px;
+            height: 70px;
+            margin-top: 10px;
+            border: 0px solid #bbbbbb;
+        }
+
+        nav li {
+            display: inline-block;
+            /*중요*/
+            margin: 20px 30px;
+        }
+
+        section {
+            float: left;
+            /*중요*/
+            margin-top: 10px;
+            border: 0px solid #bbbbbb;
+            padding-bottom: 20px;
+        }
+
+        aside {
+            float: right;
+            /*중요*/
+            border: 0px solid #bbbbbb;
+            margin-top: 10px;
+        }
+
+        aside li {
+            text-align: right;
+            /*중요*/
+            margin-bottom: 30px;
+        }
+
+        #sub1 {}
+
+        #sub1 li {
+            display: inline-block;
+            /*중요*/
+            text-align: center;
+            /*중요*/
+            padding-right: 20px;
+        }
+
+        #sub1 img:hover {
+            box-shadow: 5px 5px 10px gray;
+            /*중요*/
+            transform: translate(5px, -5px);
+            /*중요*/
+        }
+
+
+
+        #sub2 img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50% 50%;
+            /*중요*/
+        }
+
+        #sub2 li {
+            display: inline-block;
+            /*중요*/
+            padding-right: 20px;
+            text-align: center;
+            /*중요*/
+            width: 160px;
+        }
+
+        #sub2 img:hover {
+            transform: scale(1.1);
+            /*중요*/
+        }
+
+
+
+        #sub3 li {
+            display: inline-block;
+            /*중요*/
+            margin-right: 16px;
+            /*중요 패딩으로 하면 스케일 될 때 패딩영역까지 같이 쓰기 때문이다.*/
+            overflow: hidden;
+            /*중요*/
+        }
+
+        #sub3 img {
+            width: 250px;
+            /*중요*/
+            height: 180px;
+            /*중요*/
+            display: block;
+            /*중요 작은 여백을 없애준다/*/
+        }
+
+        #sub3 img:hover {
+            transform: scale(1.1);
+            /*중요*/
+            transition: transform 1s;
+            /*중요*/
+        }
+
+        footer {
+            width: 1300px;
+            height: 100px;
+            margin: 10px 0 10px 0;
+        }
+
+        #address {
+            float: left;/*중요*/
+            margin: 10px 0 0 10px;
+        }
+
+        #customer {
+            float: right;/*중요*/
+            margin: 10px 0 0 10px;
+        }
+
+        #logo {
+            float: left;
+            /*중요*/
+            margin-top: 10px;
+        }
+
+        #top {
+            float: right;
+            /*중요*/
+            margin: 30px 20px 0 0;
+        }
+        
+        #top li{
+            display: inline-block;            
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body id="page">
+    <header>
+        <div id="logo">
+            <img src="./img/logo.png" alt="logo_no">
+        </div>
+        <div id="top">
+           <ul>
+               <li><a href="#">로그인</a> | </li>
+               <li><a href="#">회원가입</a> | </li>
+               <li><a href="./goshinwon/20200969_goshinwon_information.html" target="_blank">마이페이지</a> | </li>
+               <li><a href="#">고객센터</a></li>
+               
+           </ul>
+            
+        </div>
+    </header>
+    <div class="clear"></div>
+    <nav>
+        <ul>
+            <li><a href="#">감염병</a></li>
+            <li><a href="#">건강정책</a></li>
+            <li><a href="#">정책정보</a></li>
+            <li><a href="#">연구개발</a></li>
+            <li><a href="#">알림.자료</a></li>
+            <li><a href="#">간행물.통계</a></li>
+            <li><a href="#">민원.정보공개</a></li>
+            <li><a href="#">기관소개</a></li>
+            <li><a href="#">사업별홈페이지</a></li>
+
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <!--/*중요*/-->
+    <section>
+        <a id="mainimage" href="#"><img src="./img/mainImage.jpg" alt="section_no" width="1080"></a>
+    </section>
+    <aside>
+        <ul>
+            <li><a href="#">사용자별맞춤메뉴</a></li>
+            <li><a href="#">일반인</a></li>
+            <li><a href="#">연구자</a></li>
+            <li><a href="#">언론인</a></li>
+        </ul>
+    </aside>
+    <section>
+        <ul id="sub1">
+            <li><a href="#"><img src="./img/section1.png" alt="section_no" width="250"></a> <br> 온열질환 건강수칙</li>
+            <li><a href="./bibrio/index.html"><img src="./img/section2.png" alt="section_no" width="250"></a> <br> 비브리오패혈증 예방수칙</li>
+            <li><a href="#"><img src="./img/section3.jpg" alt="section_no" width="250"></a> <br> 미세먼지 건강수칙</li>
+            <li><a href="#"><img src="./img/section4.jpg" alt="section_no" width="250"></a> <br> 코로나19 영상자료</li>
+        </ul>
+
+    </section>
+    <section>
+        <ul id="sub2">
+            <li><a href="#"><img src="./img/icon1.PNG" alt="icon_no"> <br>국가별 질병정보</a></li>
+            <li><a href="#"><img src="./img/icon2.PNG" alt="icon_no"> <br>홍보자료</a></li>
+            <li><a href="#"><img src="./img/icon3.PNG" alt="icon_no"> <br>이달의 건강정보</a></li>
+            <li><a href="#"><img src="./img/icon4.PNG" alt="icon_no"> <br>조직도직원검색</a></li>
+            <li><a href="#"><img src="./img/icon5.PNG" alt="icon_no"> <br>법령.지침.서식</a></li>
+            <li><a href="#"><img src="./img/icon6.PNG" alt="icon_no"> <br>공고/공시</a></li>
+        </ul>
+
+    </section>
+    <section>
+        <ul id="sub3">
+            <li><a href="#"><img src="./img/section5.png" alt="section_no"></a></li>
+            <li><a href="#"><img src="./img/section6.png" alt="section_no"></a></li>
+            <li><a href="#"><img src="./img/section7.png" alt="section_no"></a></li>
+            <li><a href="#"><img src="./img/section8.png" alt="section_no"></a></li>
+        </ul>
+
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <div id="address">
+            <img src="./img/address.PNG" alt="image_no">
+        </div>
+        <div id="customer">
+            <img src="./img/customer.PNG" alt="image_no">
+        </div>
+    </footer>
+</body></html>

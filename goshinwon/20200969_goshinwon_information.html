@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>goshinwon information</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+    <div class="wrap">
+       
+        <header class="clear">
+            <h2 id="mark">고신원</h2>
+            <nav>
+                <ul class="mainmenu">
+                    <li onmouseup="show()"><a href="#name" target="_self">자기소개</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="popup_on">성격</a></li>
+                            <li><a href="#" class="popup_on">자격증</a></li>
+                            <li><a href="#" class="popup_on">출신지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#abilty" target="_self">특기사항</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="popup_on">취미</a></li>
+                            <li><a href="#" class="popup_on">평소생활</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#comment" target="_self">목표</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="popup_on">장래희망</a></li>
+                            <li><a href="#" class="popup_on">원하는 직장</a></li>
+                        </ul>
+                    </li>
+                </ul></nav>
+
+        </header>
+        <section class="clear">
+            <h2 class="none">image</h2>
+            <article id="images">
+                <h2 class="none">image</h2>
+                <img src="https://cdn.icon-icons.com/icons2/1165/PNG/512/1488492636-basicman09_81758.png" alt="no image">
+                <a href="man.png" id="btn" download>이미지 다운로드</a>
+            </article>
+            <article id="name">
+                <h3 class="titles">자기소개</h3>
+                <p>안녕하세요. 동양미래대학교에 입학하게 된 20학번 고신원입니다. 고등학교 시절 저는 담임선생님을 통해<br>
+                    프로그래밍에 대해 알게 되었습니다. 평소에 게임이나 앱을 쓰기만 하고 별다른 관심이 없던 저는<br>
+                    담임선생님과의 상담을 통해 프로그래밍에 대한 정보를 배우고, 조사하는 과정에서 프로그래밍에 관심이 생겼습니다.<br>
+                    대학교에서 부족한 프로그래밍 지식을 보충하여 한 명의 프로그래머로서 성장하는 것이 제 목표입니다.</p>
+            </article>
+
+            <article id="abilty">
+                <h3 class="titles">특기사항</h3>
+
+                <table>
+                    <tr>
+                        <th>타이핑</th>
+                        <td><meter value="7" max="10"></meter></td>
+                        <td>한글타자는 어느 정도 되지만 영타는 아직 부족하다고 생각합니다.</td>
+                    </tr>
+                    <tr>
+                        <th>코딩</th>
+                        <td><meter value="5" max="10"></meter></td>
+                        <td>학교에서 html, css에 대한 기초적인 지식은 배웠습니다.</td>
+                    </tr>
+                    <tr>
+                        <th>자료조사</th>
+                        <td><meter value="8" max="10"></meter></td>
+                        <td>혼자서 공부하는 경우가 많아 정보를 조사하는 실력이 늘어났습니다.</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article id="comment">
+                <h2 class="none">image</h2>
+                <form method="get">
+                    <fieldset id="radio">
+                        <legend>만족도 조사</legend>
+                        <input type="radio" name="satisfied">만족
+                        <input type="radio" name="satisfied">보통
+                        <input type="radio" name="satisfied">불만족
+                        <button type="submit">제출</button>
+                    </fieldset>
+
+                    <textarea id="qna" rows="7" cols="135">궁금한 점이나 부족한 부분을 알려주세요.</textarea>
+
+
+                </form>
+            </article>
+
+        </section>
+        <aside class="clear">
+            <p>개인적으로 파이썬에 관심이 많습니다. 다른 언어들보다 진입장벽도 낮을뿐더러 인공지능과 빅 데이터 등 많은 분야에서 활약하기 때문입니다.</p>
+        </aside>
+        <footer class="clear">
+            <small>2020년 4월 24일 수정</small>
+        </footer>
+        
+    </div>
+    
+</body>
+
+</html>
